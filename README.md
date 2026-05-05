@@ -2,6 +2,36 @@
 
 This folder is the GitHub Pages update server.
 
+## Easy Release Panel
+
+For normal use, run the local release panel:
+
+```powershell
+.\start-release-panel.ps1
+```
+
+It opens:
+
+```text
+http://127.0.0.1:8765/
+```
+
+The panel can:
+
+- connect the app to `https://thejinx1.github.io/6ure-files-updates/latest.json`
+- run the PyInstaller build
+- calculate SHA-256 for your setup EXE or ZIP
+- create/update the GitHub Release
+- upload the setup file as a release asset
+- commit the new `latest.json` file to the Pages repo
+
+The GitHub token is not stored. Use a token with repo access for:
+
+```text
+Contents: read/write
+Releases: read/write
+```
+
 Use this repo pattern:
 
 ```text
@@ -46,6 +76,17 @@ This writes:
 ```
 
 ## Publishing A New Version
+
+Recommended method:
+
+1. Run `.\start-release-panel.ps1`.
+2. Fill GitHub owner/repo/token.
+3. Click `App Config Bagla`.
+4. Enter version and release notes.
+5. Select the setup EXE.
+6. Click `GitHub'a Publish Et`.
+
+Manual method:
 
 1. Build your setup EXE.
 2. Create a GitHub Release with tag `v1.0.1`.
