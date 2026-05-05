@@ -1,10 +1,10 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "notes": "",
   "windows": {
-    "url": "https://github.com/thejinx1/6ure-files-updates/releases/download/v1.1.1/6ure-files-setup-1.1.1.exe",
-    "sha256": "0f43a0631f7af8e4890edf95f442df0c6a46b8912dd321559b2245eaad20a742",
-    "sizeBytes": 16395632,
+    "url": "https://github.com/thejinx1/6ure-files-updates/releases/download/v1.1.2/6ure-files-setup-1.1.2.exe",
+    "sha256": "f3fbbcd2ef2c40865f4e96df4d592a2b26ebe1c5d611b5a26047b237462bc0dd",
+    "sizeBytes": 16396404,
     "packageType": "installer",
     "installerArgs": "/S",
     "successExitCodes": [
