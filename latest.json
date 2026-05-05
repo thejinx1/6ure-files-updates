@@ -1,10 +1,10 @@
 {
-  "version": "1.1.0",
-  "notes": "- Protected list system was developed.",
+  "version": "1.1.1",
+  "notes": "",
   "windows": {
-    "url": "https://github.com/thejinx1/6ure-files-updates/releases/download/v1.1.0/6ure-files-setup-1.1.0.exe",
-    "sha256": "e1c83e10e2554dffd6485ca848127aee3919c3b2070d507537f7d6c87364dd23",
-    "sizeBytes": 16397162,
+    "url": "https://github.com/thejinx1/6ure-files-updates/releases/download/v1.1.1/6ure-files-setup-1.1.1.exe",
+    "sha256": "0f43a0631f7af8e4890edf95f442df0c6a46b8912dd321559b2245eaad20a742",
+    "sizeBytes": 16395632,
     "packageType": "installer",
     "installerArgs": "/S",
     "successExitCodes": [
