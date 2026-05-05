@@ -6,8 +6,8 @@ Use this repo pattern:
 
 ```text
 Repo name: 6ure-files-updates
-Pages URL: https://YOUR_GITHUB_USERNAME.github.io/6ure-files-updates/
-Manifest:  https://YOUR_GITHUB_USERNAME.github.io/6ure-files-updates/latest.json
+Pages URL: https://thejinx1.github.io/6ure-files-updates/
+Manifest:  https://thejinx1.github.io/6ure-files-updates/latest.json
 ```
 
 ## Why GitHub Releases for setup EXE files?
@@ -32,14 +32,14 @@ limits, while GitHub's docs recommend Releases for distributing large binaries.
 4. Update the app config before building your setup:
 
 ```powershell
-.\set-app-update-config.ps1 -Owner "YOUR_GITHUB_USERNAME" -Repo "6ure-files-updates"
+.\set-app-update-config.ps1 -Owner "thejinx1" -Repo "6ure-files-updates"
 ```
 
 This writes:
 
 ```json
 {
-  "manifestUrl": "https://YOUR_GITHUB_USERNAME.github.io/6ure-files-updates/latest.json",
+  "manifestUrl": "https://thejinx1.github.io/6ure-files-updates/latest.json",
   "channel": "stable",
   "allowInsecure": false
 }
@@ -54,7 +54,7 @@ This writes:
 
 ```powershell
 .\make-latest.ps1 `
-  -Owner "YOUR_GITHUB_USERNAME" `
+  -Owner "thejinx1" `
   -Repo "6ure-files-updates" `
   -Version "1.0.1" `
   -PackagePath "C:\path\to\6ure-files-setup-1.0.1.exe" `
@@ -66,7 +66,7 @@ This writes:
 Installed apps will read the new version from:
 
 ```text
-https://YOUR_GITHUB_USERNAME.github.io/6ure-files-updates/latest.json
+https://thejinx1.github.io/6ure-files-updates/latest.json
 ```
 
 ## Installer Args
