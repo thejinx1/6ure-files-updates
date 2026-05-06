@@ -1,10 +1,10 @@
 {
-  "version": "1.2.1",
-  "notes": "- Fixed some problems about Discord presences.",
+  "version": "1.2.5",
+  "notes": "Added a new animated opening screen with welcome text, spinner, hints, logo effects, and smooth transition into the app.\r\n\r\nAdded notification sounds for toast and leak alerts.\r\nImproved Discord Presence, including upload status and Join 6ure support.\r\n\r\nRedesigned the main leak uploader UI with a cleaner dark theme.\r\nMoved Cloud, Protected, Update, Open Site, Log out, and account info into a hover sidebar.\r\n\r\nUpdated the account badge to show the avatar when collapsed and avatar + username when expanded.\r\n\r\nMoved selected leak folders into the browse/drop area and removed the separate folder path box.\r\n\r\nImproved Cloud Manager speed and responsiveness.\r\nReplaced browser-style WebView prompts with custom animated in-app dialogs.\r\n\r\nAdded a custom connection error screen instead of the default WebView error page.\r\n\r\nChanged the import button into an icon-only upload button with built-in progress fill animation.\r\n\r\nCleared editor name and selected leak folders on app restart while keeping sign-in saved.\r\n\r\nFixed opening sound timing, transition smoothness, sidebar avatar alignment, and several UI polish issues.",
   "windows": {
-    "url": "https://github.com/thejinx1/6ure-files-updates/releases/download/v1.2.1/6ure-files-setup-1.2.1.exe",
-    "sha256": "18d89edf6c5077d0316fc0d44c2923b8a96f8c2e7270c06068dc3c43b4946d37",
-    "sizeBytes": 16413981,
+    "url": "https://github.com/thejinx1/6ure-files-updates/releases/download/v1.2.5/6ure-files-setup-1.2.5.exe",
+    "sha256": "48844db52892d9af1007381283bae7e00305d19dc5218419e6698b24d6c82d0d",
+    "sizeBytes": 16569441,
     "packageType": "installer",
     "installerArgs": "/S",
     "successExitCodes": [
