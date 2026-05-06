@@ -1,10 +1,10 @@
 {
-  "version": "1.2.0",
-  "notes": "- Discord presences are here.",
+  "version": "1.2.1",
+  "notes": "- Fixed some problems about Discord presences.",
   "windows": {
-    "url": "https://github.com/thejinx1/6ure-files-updates/releases/download/v1.2.0/6ure-files-setup-1.2.0.exe",
-    "sha256": "b1b8430dfef4b10d8d4465e58090999ce0ca80abd1b1bed72327e59dab091b6a",
-    "sizeBytes": 16415336,
+    "url": "https://github.com/thejinx1/6ure-files-updates/releases/download/v1.2.1/6ure-files-setup-1.2.1.exe",
+    "sha256": "18d89edf6c5077d0316fc0d44c2923b8a96f8c2e7270c06068dc3c43b4946d37",
+    "sizeBytes": 16413981,
     "packageType": "installer",
     "installerArgs": "/S",
     "successExitCodes": [
